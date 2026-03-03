@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 376984088387622209}
   m_Layer: 0
   m_Name: PegBlue
-  m_TagString: Untagged
+  m_TagString: Peg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41164bdfcd0c425418ed61c510d7575b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Peg
+  Sounds: {fileID: 0}
   Sprites:
   - {fileID: -999456493432104195, guid: 9366c4f17dd101e49a3127575a8c4c4d, type: 3}
   - {fileID: 21300000, guid: f551336da5de4354a8e7cab05146eea3, type: 3}
   - {fileID: 21300000, guid: b99a22f4428b04f4c9eb103dfb1a53b6, type: 3}
+  RingParticlePrefab: {fileID: 122026009535144286, guid: 6621f234d1b6d6543b76c33bb73e213e, type: 3}
