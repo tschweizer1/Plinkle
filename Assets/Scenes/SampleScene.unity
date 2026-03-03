@@ -390,6 +390,8 @@ GameObject:
   - component: {fileID: 151459397}
   - component: {fileID: 151459396}
   - component: {fileID: 151459398}
+  - component: {fileID: 151459400}
+  - component: {fileID: 151459399}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -469,6 +471,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 591426377}
+  - {fileID: 484809210}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &151459398
@@ -483,6 +486,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73abd3026c077ef43b2b319dd89af2da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseFacer
+--- !u!114 &151459399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151459395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10854df0c0dadb3429cf3c7f8b308dd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Launcher
+  projectilePrefab: {fileID: 906028681745373720, guid: 8f93e878423e79549b07af6864c4e2d3, type: 3}
+  projectileSpawn: {fileID: 484809210}
+--- !u!114 &151459400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151459395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ea50a26b83bc7144ae10002b1973429, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MouseLauncher
+  Launcher: {fileID: 151459399}
 --- !u!1001 &202669749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1240,6 +1270,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
   m_PrefabInstance: {fileID: 457719774}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &484809209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 484809210}
+  m_Layer: 0
+  m_Name: GunExit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &484809210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484809209}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 151459397}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &493035044
 GameObject:
   m_ObjectHideFlags: 0

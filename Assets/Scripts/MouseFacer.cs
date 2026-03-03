@@ -6,6 +6,10 @@ public class MouseFacer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Mouse.current == null)
+        {
+            return;
+        }
         float angle = GetAngle();
 
         angle = ConstrainAngle(angle);
