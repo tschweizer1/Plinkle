@@ -8,10 +8,10 @@ public class MouseLauncher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!GAme.IsGameStarted())
+        /*if (!GAme.IsGameStarted())
         {
             return;
-        }
+        }*/
 
         if (Mouse.current == null)
         {
