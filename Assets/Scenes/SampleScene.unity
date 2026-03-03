@@ -559,6 +559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea50a26b83bc7144ae10002b1973429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseLauncher
+  sounds: {fileID: 1159590988}
   Launcher: {fileID: 151459399}
 --- !u!4 &157003325 stripped
 Transform:
@@ -578,6 +579,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.04539001
@@ -640,6 +645,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.04539
@@ -702,6 +711,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.54539
@@ -764,6 +777,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.54539
@@ -892,6 +909,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9546099
@@ -954,6 +975,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9546099
@@ -1016,6 +1041,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.54539
@@ -1419,6 +1448,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.0453901
@@ -1599,7 +1632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &494235593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1607,7 +1640,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494235592}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9993a7da7f8d0474f90b91825193703d, type: 3}
   m_Name: 
@@ -1686,6 +1719,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.45461
@@ -1942,6 +1979,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.0453901
@@ -2009,6 +2050,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.0453901
@@ -2166,6 +2211,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.54539
@@ -2402,6 +2451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.04539001
@@ -2464,6 +2517,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.45461
@@ -2583,6 +2640,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.95461
@@ -2974,6 +3035,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.45461
@@ -3327,6 +3392,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.95461
@@ -3389,6 +3458,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.04539001
@@ -3443,6 +3516,153 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
   m_PrefabInstance: {fileID: 1092915452}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1159590986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1159590989}
+  - component: {fileID: 1159590988}
+  - component: {fileID: 1159590987}
+  m_Layer: 0
+  m_Name: Sounds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1159590987
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159590986}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1159590988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159590986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8efe9527c9bf30a4999f64949e708383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sounds
+  CannonClip: {fileID: 8300000, guid: c4e47d02661f194499fc66775fcf41b0, type: 3}
+  PegDestroyedClip: {fileID: 8300000, guid: 9cb630403f841a94ca4b5b4b86ca2ec9, type: 3}
+  PegHitClip: {fileID: 8300000, guid: ed794a6ace653e549b3ab0beda2917a7, type: 3}
+  FireworksClip: {fileID: 8300000, guid: e2163177f446bff4d86986b4585edf50, type: 3}
+  AudioSource: {fileID: 1159590987}
+--- !u!4 &1159590989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159590986}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.45158, y: -0.1961, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1176723696 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 266276531824856329, guid: 5c7fb25627453364984f2d0de34e3bb2, type: 3}
@@ -3456,6 +3676,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.45461
@@ -3686,6 +3910,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.45461
@@ -3936,6 +4164,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.54539
@@ -4135,6 +4367,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.95461
@@ -4399,6 +4635,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.54539
@@ -4461,6 +4701,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.9546099
@@ -4658,6 +4902,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.45461
@@ -4720,6 +4968,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.45461
@@ -4782,6 +5034,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1317091445}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.45461
@@ -4947,6 +5203,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.45461
@@ -5184,6 +5444,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 825462627}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.04539
@@ -5307,6 +5571,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2050802369}
     m_Modifications:
+    - target: {fileID: 376984088387622209, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
+      propertyPath: Sounds
+      value: 
+      objectReference: {fileID: 1159590988}
     - target: {fileID: 2274991323571151630, guid: db5ed19abc04ce84597c579f5328adf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.04539
@@ -5378,3 +5646,4 @@ SceneRoots:
   - {fileID: 151459397}
   - {fileID: 498084576}
   - {fileID: 1247658330}
+  - {fileID: 1159590989}

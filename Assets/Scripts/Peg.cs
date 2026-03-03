@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Peg : MonoBehaviour
 {
+    public Sounds Sounds;
     public List<Sprite> Sprites;
     private int currentSpriteNumber = 0;
     private SpriteRenderer spriteRenderer;
@@ -24,10 +25,12 @@ public class Peg : MonoBehaviour
     {
         if (currentSpriteNumber >= 2)
         {
+            Sounds.PlayPegDestroyedSound();
             Destroy(gameObject);
         }
         else
         {
+            Sounds.PlayPegHitSound();
             ShowNextSprite();
         }
     }
